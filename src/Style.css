@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Open+Sans:wght@700&family=Roboto+Mono:wght@400;500&family=Roboto+Serif:opsz@8..144&family=Roboto:wght@400;500&display=swap');
+
+body {
+  background: aliceblue;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+#container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  width: 35vw;
+  height: 40vh;
+}
+
+#container > * {
+  background: #fff;
+}
+
+#container > h1, h3{
+  font-family: 'Roboto';
+  font-weight: 500;
+  background-color: #fff;
+  margin: 8px 0;
+}
+
+#container > h3{
+  gap: 25px;
+}
+
+#inputCapital {
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  width: 20vw;
+  font-size: 17px;
+  margin-top: 5%; 
+  background: #fff;
+}
+
+#inputCapital > *{
+  background: #fff;
+}
+
+#container > button {
+  height: 5vh;
+  width: 12vw;
+  border-radius: 5px;
+  border: none;
+  background: #3d3a3a;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+}
+
+#top{
+  height: 7vh;
+  width: 17vw;
+  display: flex;
+  gap: 30%;
+  margin-bottom: 1%;
+}
+
+.circle-flag > * {
+  height: 100%;
+  width: 4vw;
+  border-radius: 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
